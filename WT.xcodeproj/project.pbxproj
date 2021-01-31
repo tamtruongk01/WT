@@ -15,6 +15,10 @@
 		8E31246725C66AD500447807 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E31243C25C66AD200447807 /* ContentView.swift */; };
 		8E31246825C66AD500447807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E31243D25C66AD400447807 /* Assets.xcassets */; };
 		8E31246925C66AD500447807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E31243D25C66AD400447807 /* Assets.xcassets */; };
+		8E31248825C679EC00447807 /* WelcomeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E31248725C679EC00447807 /* WelcomeImage.swift */; };
+		8E31248925C679EC00447807 /* WelcomeImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E31248725C679EC00447807 /* WelcomeImage.swift */; };
+		8E31248F25C67C9C00447807 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E31248E25C67C9C00447807 /* MapView.swift */; };
+		8E31249025C67C9C00447807 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E31248E25C67C9C00447807 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		8E31245D25C66AD500447807 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E31246125C66AD500447807 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		8E31246325C66AD500447807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E31248725C679EC00447807 /* WelcomeImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeImage.swift; sourceTree = "<group>"; };
+		8E31248E25C67C9C00447807 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,9 @@
 			children = (
 				8E31243B25C66AD200447807 /* WTApp.swift */,
 				8E31243C25C66AD200447807 /* ContentView.swift */,
+				8E31248E25C67C9C00447807 /* MapView.swift */,
 				8E31243D25C66AD400447807 /* Assets.xcassets */,
+				8E31248725C679EC00447807 /* WelcomeImage.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -308,6 +316,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E31248825C679EC00447807 /* WelcomeImage.swift in Sources */,
+				8E31248F25C67C9C00447807 /* MapView.swift in Sources */,
 				8E31246625C66AD500447807 /* ContentView.swift in Sources */,
 				8E31246425C66AD500447807 /* WTApp.swift in Sources */,
 			);
@@ -317,6 +327,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E31248925C679EC00447807 /* WelcomeImage.swift in Sources */,
+				8E31249025C67C9C00447807 /* MapView.swift in Sources */,
 				8E31246725C66AD500447807 /* ContentView.swift in Sources */,
 				8E31246525C66AD500447807 /* WTApp.swift in Sources */,
 			);
